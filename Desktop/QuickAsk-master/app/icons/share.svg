@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 284 283" width="16" height="16">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 150px;fill: #000000;font-weight: 400;font-family: "DroidSansFallback", "Droid Sans Fallback" } 
+	</style>
+	<text id="导出" style="transform: matrix(1,0,0,1,-5.306,199.021)">
+		<tspan x="0" y="0" class="t0">导</tspan><tspan y="0" class="t0">出
+</tspan>
+	</text>
+</svg>

@@ -1,0 +1,72 @@
+.icon-button {
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  overflow: hidden;
+  user-select: none;
+  outline: none;
+  border: none;
+  color: var(--black);
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  &.primary {
+    background-color: var(--primary);
+    color: white;
+
+    path {
+      fill: white !important;
+    }
+  }
+
+  &.second {
+    background-color: var(--second);
+  }
+}
+
+.shadow {
+  box-shadow: var(--card-shadow);
+}
+
+.border {
+  border: var(--border-in-light);
+}
+
+.icon-button:hover {
+  border-color: var(--primary);
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.icon-button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-button {
+    padding: 16px;
+  }
+}
+
+.icon-button-text {
+  margin-left: 5px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

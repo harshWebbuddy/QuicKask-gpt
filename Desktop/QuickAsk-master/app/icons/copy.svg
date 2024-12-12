@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="copy" opacity="0.7">
+<g id="Rectangle">
+<rect x="8" y="8.67548" width="12" height="12" rx="2" stroke="#353535" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="8" y="8.67548" width="12" height="12" rx="2" stroke="white" stroke-opacity="0.2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Path">
+<path d="M16 8.67548V6.67548C16 5.57091 15.1046 4.67548 14 4.67548H6C4.89543 4.67548 4 5.57091 4 6.67548V14.6755C4 15.78 4.89543 16.6755 6 16.6755H8" stroke="#353535" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 8.67548V6.67548C16 5.57091 15.1046 4.67548 14 4.67548H6C4.89543 4.67548 4 5.57091 4 6.67548V14.6755C4 15.78 4.89543 16.6755 6 16.6755H8" stroke="white" stroke-opacity="0.2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

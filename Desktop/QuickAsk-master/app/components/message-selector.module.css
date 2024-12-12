@@ -1,0 +1,91 @@
+.message-selector .message-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message-selector .message-filter .search-bar {
+  max-width: unset;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 10px;
+}
+
+.message-selector .message-filter .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message-selector .message-filter .actions button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .message-selector .message-filter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .message-selector .message-filter .search-bar {
+    margin-right: 0;
+  }
+  .message-selector .message-filter .actions {
+    margin-top: 20px;
+  }
+  .message-selector .message-filter .actions button {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
+.message-selector .messages {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: var(--border-in-light);
+  overflow: hidden;
+}
+
+.message-selector .messages .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.message-selector .messages .message-selected {
+  background-color: var(--second);
+}
+
+.message-selector .messages .message:not(:last-child) {
+  border-bottom: var(--border-in-light);
+}
+
+.message-selector .messages .message .avatar {
+  margin-right: 10px;
+}
+
+.message-selector .messages .message .body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: calc(100% - 40px);
+}
+
+.message-selector .messages .message .body .date {
+  font-size: 12px;
+  line-height: 1.2;
+  opacity: 0.5;
+}
+
+.message-selector .messages .message .body .content {
+  font-size: 12px;
+}
+/*# sourceMappingURL=message-selector.module.css.map */

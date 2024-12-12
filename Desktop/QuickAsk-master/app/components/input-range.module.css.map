@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,sBAAsB;EAC9B,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,iBAAiB;EAC1B,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;CAKf;;AAXD,AAQE,YARU,CAQV,KAAK,CAAA,AAAA,IAAC,CAAK,OAAO,AAAZ,EAAc;EAClB,SAAS,EAAE,iBAAiB;CAC7B",
+    "sources": [
+        "input-range.module.scss"
+    ],
+    "names": [],
+    "file": "input-range.module.css"
+}
