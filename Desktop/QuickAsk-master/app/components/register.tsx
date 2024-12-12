@@ -1,14 +1,8 @@
 import { useState, useEffect } from "react";
-import styles from "./register.module.scss";
-import { IconButton } from "./button";
-import NextImage from "next/image";
-import MaxIcon from "../icons/max.svg";
-import MinIcon from "../icons/min.svg";
+
 import { useAccessStore, useAppConfig } from "../store";
 import { useAuthStore } from "../store/auth";
-import ChatGptIcon from "../icons/chatgpt.png";
 import { useWebsiteConfigStore } from "../store/website";
-import { SingleInput, Input, List, ListItem, PasswordInput } from "./ui-lib";
 
 import Locale from "../locales";
 import { Path } from "../constant";

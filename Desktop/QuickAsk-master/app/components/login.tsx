@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from "react";
 import { useAccessStore, useAppConfig } from "../store";
 import { useAuthStore } from "../store/auth";
