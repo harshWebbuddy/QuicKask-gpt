@@ -10,11 +10,10 @@ import {
 import { createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(
-  process.env.SUPABASE_URL ?? "https://jwbuwrzmdqukmribxeya.supabase.co",
+  process.env.SUPABASE_URL ?? "https://xfjywamqdldfgjucqxll.supabase.co",
   process.env.SUPABASE_ANON_KEY ??
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3YnV3cnptZHF1a21yaWJ4ZXlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTUxMDk2MTIsImV4cCI6MjAxMDY4NTYxMn0.-dC6WBTENapwROw-C27qVDOBeK1UPpqTG5XhumqT70g",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhmanl3YW1xZGxkZmdqdWNxeGxsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIyNjkzNjMsImV4cCI6MjA0Nzg0NTM2M30.7ngaROroLEPprdNBdObJQQhc-aeM6MZmE8HkOQt0_3k"
 );
-
 export interface AuthStore {
   session: any;
   email: string;
