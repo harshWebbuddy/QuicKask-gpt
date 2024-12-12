@@ -653,7 +653,7 @@ export function Chat() {
       body: payload,
     };
 
-    fetch("https://api.openai.com/v1/models", subsOptions)
+    fetch("https://api.openai.com/v1/audio/speech", subsOptions)
       .then((response) => response.json())
       .then((result) => {
         if (result.status) {
